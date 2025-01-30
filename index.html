@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- google fonts link 1 -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- google fonts link 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'primary-color': '#ffdc26',
+                'text-color': 'rgba(17, 17, 17, 1)'
+              }
+            }
+          }
+        }
+      </script>
+    
+</head>
+<body class="">
+    <header>
+        <nav class="bg-[#fff9f4]">
+            <div class="w-11/12 mx-auto flex justify-between items-center py-4">
+                <div class="flex items-center gap-4">
+                    <img src="image/c1-assets/logo-header.png" alt="">
+                    <h1 class="text-3xl text-text-color font-normal font-sora">Browse<span class="text-primary-color">4</span>Pets</h1>
+                </div>
+                <div class=" hidden md:block md:text-xl font-sora">
+                  <ul class="flex items-center gap-5">
+                    <li><a href="">Find a pet</a></li>
+                    <li><a href="">Breeds</a></li>
+                    <li><a href="">Contact us</a></li>
+                  </ul>
+                </div>
+                <div class=" hidden md:block font-sora ">
+                  <div class="text-xl flex items-center space-x-4">
+                    <i class="fa-regular fa-bell"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <button class="btn border border-yellow-400 bg-transparent">Login</button>
+                  <button class="btn bg-primary-color">Register</button>
+                  </div>
+                </div>
+                <i class="fa-solid fa-bars text-2xl md:hidden block"></i>
+            </div>
+        </nav>
+
+        <!-- banner section -->
+         <div class="w-11/12 mx-auto my-10">
+          <div class="space-y-5 pl-3 md:absolute md:z-10  md:mt-20">
+            <h1 class="font-adlamdisplay text-3xl md:text-4xl lg:text-5xl">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h1>
+            <p class="text-xs md:text-xl font-sora">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="btn bg-primary-color">Find a pet</button>
+          </div>
+          <div class="">
+            <img class=" md:relative max-w-ful" src="image/c1-assets/cat-big.png" alt="">
+          </div>
+            
+         </div>
+    </header>
+</body>
+</html>
